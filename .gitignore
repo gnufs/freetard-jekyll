@@ -1,6 +1,6 @@
 _site/
-_posts/
-files/
+_posts
+files
 freetardnet-jekyll-content/
 
 # OS generated files #
