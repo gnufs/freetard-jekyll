@@ -1,6 +1,6 @@
 Options +MultiViews
 
-ErrorDocument 404 /404.html
+ErrorDocument 404 /verboten.html
 
 # Disable auto-adding slashes to directories without them, since this happens
 # after mod_rewrite and exposes the rewritten internal URL, e.g. turning
