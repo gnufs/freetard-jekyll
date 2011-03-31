@@ -1,6 +1,8 @@
 # Jekyll Setup on freetard.net
 
-Title says it all. Content files will be hosted on [Gitorious](https://gitorious.org).
+Title says it all. Content files are hosted on a [Gitorious repo](https://gitorious.org/freetardnet-jekyll-content/freetardnet-jekyll-content) and administered by the members of [freetardnet team](https://gitorious.org/+freetardnet).
+
+[Read here to learn about how to join.](http://freetard.net/2011/04/intro.html)
 
 ## License
 
