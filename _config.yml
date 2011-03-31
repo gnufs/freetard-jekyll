@@ -1,0 +1,4 @@
+auto: true
+permalink: /:year/:month/:title.html
+pygments: true
+multiviews: true
