@@ -1,6 +1,6 @@
 # Jekyll Setup on freetard.net
 
-Title says it all. Content files will be hosted on [Gitorious](gitorious.org)
+Title says it all. Content files will be hosted on [Gitorious](http://gitorious.org).
 
 ## License
 
