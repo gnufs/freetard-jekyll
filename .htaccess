@@ -1,6 +1,7 @@
 Options +MultiViews
 
-ErrorDocument 404 /verboten.html
+ErrorDocument 403 /srv/freetard/freetard-jekyll/verboten.html
+ErrorDocument 404 /srv/freetard/freetard-jekyll/verboten.html
 
 # Disable auto-adding slashes to directories without them, since this happens
 # after mod_rewrite and exposes the rewritten internal URL, e.g. turning
