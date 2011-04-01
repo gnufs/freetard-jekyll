@@ -23,11 +23,31 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
 }
 
 h1 {
+  font-size: 110%;
   margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 105%;
+}
+
+h3 {
+  font-size: 100%;
+}
+
+h4 {
+  font-size: 100%;
+}
+
+h5 {
+  font-size: 100%;
+}
+
+h6 {
+  font-size: 100%;
 }
 
 p {
@@ -57,6 +77,24 @@ table {
 /*
 /*****************************************************************************/
 
+.monthyear {
+  font-weight: bold;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.day {
+  color: #aaa;
+  font-size: 100%;
+  margin-left: 2em;
+  margin-top: 0.5em;
+  margin-bottom: -2em;
+}
+.entries {
+  color: #999999;
+  margin-left: 4em;
+}
+
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
@@ -69,7 +107,7 @@ ul.posts {
   ul.posts span {
     color: #aaa;
     font-family: Monaco, "Courier New", monospace;
-    font-size: 80%;
+    font-size: 90%;
   }
 
 /*****************************************************************************/

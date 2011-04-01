@@ -5,9 +5,28 @@ title: freetard.net
 
 <div id="home">
   <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a> by {{ post.author }}</li>
-    {% endfor %}
-  </ul>
+      {% for post in site.posts %}
 
-</div>
+         {% capture old_month %}{{ previous_post.date | date:"%m" }}{% endcapture %}
+         {% capture month %}{{ post.date | date:"%m" }}{% endcapture %}
+         {% capture old_year %}{{ previous_post.date | date:"%Y" }}{% endcapture %}
+         {% capture year %}{{ post.date | date:"%Y" }}{% endcapture %}
+         {% capture old_day %}{{ previous_post.date | date:"%d" }}{% endcapture %}
+         {% capture day %}{{ post.date | date:"%d" }}{% endcapture %}
+         
+         {% if old_month != month %}
+            {% if old_year != year %}
+            {% endif %}
+            <div class="monthyear">{{ post.date | date:"%B" }} {{ post.date | date:"%Y" }}</div>
+         {% endif %}
+                  
+            {% if old_day != day %}
+            <div class="day">{{ post.date | date:"%d" }}</div> 
+            {% endif %}
+               <div class="entries">
+                  <li> <a href="{{ post.url }}">{{ post.title }}</a><small> by <strong>{{ post.author }}</strong></small></li>
+               </div>
+         
+         {% assign previous_post = post %}
+      {% endfor %}
+   </ul>
