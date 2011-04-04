@@ -21,7 +21,7 @@ title: freetard.net
          {% endif %}
                   
             {% if old_day != day %}
-            <div class="day">{{ post.date | date:"%d" }}</div> 
+            <div class="day"><strong>{{ post.date | date:"%d" }}</strong></div> 
             {% endif %}
                <div class="entries">
                   <li> <a href="{{ post.url }}">{{ post.title }}</a><small> by <strong>{{ post.author }}</strong></small></li>
