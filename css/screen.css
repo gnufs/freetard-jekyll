@@ -22,16 +22,18 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+  font-size: 140%;
+  margin-bottom: -0.5em;
 }
 
-h1 {
-  font-size: 110%;
+h2, h3, h4, h5, h6 {
+  margin-top: 1.5em;
   margin-bottom: 1em;
 }
 
 h2 {
-  font-size: 105%;
+  font-size: 120%;
 }
 
 h3 {
@@ -39,15 +41,15 @@ h3 {
 }
 
 h4 {
-  font-size: 100%;
+  font-size: 90%;
 }
 
 h5 {
-  font-size: 100%;
+  font-size: 80%;
 }
 
 h6 {
-  font-size: 100%;
+  font-size: 70%;
 }
 
 p {
